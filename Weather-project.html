@@ -30,20 +30,94 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="city"></h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
-              <span id="time"></span>,
-              <span id="description"></span>
+              <span id="time">Friday 20:19</span>", "
+              <span id="description">clear sky</span>
 
               <br />
-              Humidity: <strong id="humidity"></strong>, Wind:
-              <strong id="wind-speed"></strong>
+              " Humidity: " <strong id="humidity">45%</strong>", Wind: "
+              <strong id="wind-speed">3.6km/h</strong>
             </p>
           </div>
           <div class="weather-app-temperature-container">
-            <div id="icon"></div>
-            <div class="weather-app-temperature" id="temperature"></div>
+            <div id="icon">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+                class="weather-app-icon"
+              />
+            </div>
+            <div class="weather-app-temperature" id="temperature">29</div>
             <div class="weather-app-unit">°C</div>
+          </div>
+        </div>
+        <div class="weather-forecast" id="forecast">
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Fri</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>29°</strong>
+              </div>
+              <div class="weather-forecast-temperature">13°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Sat</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>24°</strong>
+              </div>
+
+              <div class="weather-forecast-temperature">15°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Sun</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>24°</strong>
+              </div>
+              <div class="weather-forecast-temperature">16°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Mon</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/few-clouds-day.png"
+              class="weather-forecast-icon"
+            />
+
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>23°</strong>
+              </div>
+              <div class="weather-forecast-temperature">14°</div>
+            </div>
+          </div>
+          <div class="weather-forecast-day">
+            <div class="weather-forecast-date">Tue</div>
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/scattered-clouds-day.png"
+              class="weather-forecast-icon"
+            />
+            <div class="weather-forecast-temperatures">
+              <div class="weather-forecast-temperature">
+                <strong>23°</strong>
+              </div>
+              <div class="weather-forecast-temperature">15°</div>
+            </div>
           </div>
         </div>
       </main>
